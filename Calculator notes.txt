@@ -1,0 +1,32 @@
+---------------Designing of UI-----------------
+
+Divide the problems into tasks 
+first ignore the upper part of the calculator and focus on the grid part 
+the grid part shows the table with some rows and columns (standard is 4 cols and 5 rows)
+
+We will be building it row by row 
+
+so create a table element in html 
+
+<tr> represnets the table row 
+<td> represents the table column in html
+
+We are creating 4 columns in a single row
+
+
+After creating the rows and columns we add the heigh , widht and alignment to make our calcualtor more good
+Then we added the result screen by using an attribute called colspan which span in all four columns 
+After this we assign each element an id , so that we can access each element indivually and perform some actions on the values of those
+elements
+
+The difference between innerhtml , innertext and textContent is 
+
+eval() will evalute a string expression based on the expressions it will evaluate 9+9 directly we will place this in the equals to button
+
+
+
+---------------------------------------Improvements--------------------------------------
+
+Validation of mulitple operators 
+evaluate on the button keydown of equal 
+try to move the zero on the right instead of left
